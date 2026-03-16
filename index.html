@@ -19,6 +19,27 @@ The next key: 404
 
 <body>
 
+  <script>
+
+document.addEventListener("keydown", function(event){
+
+if(event.key === "h"){
+document.body.innerHTML += "<p>Signal Detected: /404.html</p>";
+}
+
+});
+
+</script>
+
+  <div id="secret"></div>
+<script>
+
+document.getElementById("secret").onclick = function(){
+alert("You found a hidden signal. Decode: 84 82 79 76 76");
+};
+
+</script>
+  
 <h1>Trolln' Hen Network</h1>
 
 <p>Welcome visitor.</p>
